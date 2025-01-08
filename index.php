@@ -127,8 +127,10 @@ require 'call_fungtion.php';
             ?>
 
 
-</div>
-<a href="about.php?id=<?php echo urlencode($data_gambar['id_aboutus']); ?>" class="btn btn-secondary rounded-end rounded-top py-2 px-5 flex-shrink-0">Selengkapnya</a>
+          </div>
+          <div>
+            <a href="about.php?id=<?php echo urlencode($data_gambar['id_aboutus']); ?>" class="btn btn-secondary rounded-end rounded-top py-2 px-5 flex-shrink-0">Selengkapnya</a>
+          </div>
         </div>
         <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
           <div class="rounded position-relative overflow-hidden">
